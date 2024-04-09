@@ -1,0 +1,431 @@
+.accomodation_details_list {
+    list-style-type: none;
+  }
+  .popup_accommodation_details {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.65);
+    backdrop-filter: blur(7px);
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s;
+    &.active {
+      display: flex;
+    }
+    & .wrapper {
+      background-color: white;
+      height: fit-content;
+      width: 100vw;
+  
+      @include mq(map-get($breakpoints, m)) {
+        height: 80vh;
+        width: 70vw;
+      }
+      & .content {
+        position: relative;
+        max-height: calc(100vh);
+        padding-top: calc(var(--fs-500) + 1.8rem);
+        padding-bottom: 1rem;
+        display: grid;
+        gap: 1rem;
+        align-content: space-between;
+        grid-template-areas: "title" "gallery" "amenities" "container" "button";
+  
+        @include mq(map-get($breakpoints, m)) {
+          justify-content: unset;
+          align-content: center;
+          height: fit-content;
+          padding-top: 0;
+          padding-bottom: 0;
+          gap: 1.5rem;
+  
+          grid-template-areas:
+            "gallery title title"
+            "gallery amenities amenities"
+            "gallery container container"
+            "gallery starting button";
+        }
+        @include mq(map-get($breakpoints, l)) {
+        }
+        @include mq(map-get($breakpoints, xl)) {
+        }
+        @include mq(map-get($breakpoints, xxl)) {
+        }
+        & > i {
+          background-color: var(--clr-neutral-1000);
+          color: var(--clr-neutral-500);
+          font-size: var(--fs-500);
+          padding: 0.8rem;
+          position: absolute;
+          top: 0;
+          right: 0;
+          @include mq(map-get($breakpoints, m)) {
+            font-size: var(--fs-400);
+            background-color: transparent;
+          }
+        }
+        & h3 {
+          grid-area: title;
+          font-family: "Cormorant";
+          font-size: var(--fs-700);
+          font-weight: bold;
+          padding: 0 1rem;
+  
+          @include mq(map-get($breakpoints, s)) {
+            padding: 0 5rem;
+          }
+          @include mq(map-get($breakpoints, m)) {
+            padding: 1rem 0 0 0 ;
+            width: calc(100% - 1rem);
+            text-align: left;
+            font-size: calc(var(--fs-700) * 0.7);
+          }
+        }
+        & .owl-carousel-accommodation-details {
+          grid-area: gallery;
+          position: relative;
+          width: calc(100vw);
+          height: 13rem;
+  
+          @include mq(map-get($breakpoints, s)) {
+            padding: 0 5rem;
+  
+            & .owl-prev {
+              left: 5rem;
+            }
+            & .owl-next {
+              right: 5rem;
+            }
+          }
+          @include mq(map-get($breakpoints, m)) {
+            width: calc(40vw);
+            height: unset;
+            padding: 0;
+  
+            & .owl-prev {
+              left: 1rem;
+            }
+            & .owl-next {
+              right: 1rem;
+            }
+            padding: 0;
+          }
+          & .next-btn,
+          & .prev-btn {
+            height: 0;
+          }
+  
+          & .owl-stage-outer {
+            & .owl-item {
+              & > div {
+                display: grid;
+                grid-template-rows: auto;
+                align-items: center;
+                margin: 0 1rem;
+                @include mq(map-get($breakpoints, s)) {
+                  margin: 0;
+                }
+                @include mq(map-get($breakpoints, m)) {
+                  width: calc(100%);
+                  grid-template-rows: unset;
+                  grid-template-columns: 1fr 1fr;
+                  gap: 5%;
+                }
+              }
+            }
+          }
+  
+          & > div {
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            display: block !important;
+            & div {
+              background-position: center;
+              background-size: cover;
+              background-repeat: no-repeat;
+              height: 13rem;
+              @include mq(map-get($breakpoints, m)) {
+                height: 80vh;
+              }
+            }
+          }
+        }
+        & .accommodation_info {
+          grid-area: amenities;
+          z-index: 200;
+          padding: 0 1rem;
+          bottom: 1rem;
+          left: 0;
+          color: var(--clr-neutral-1200);
+          width: 100%;
+  
+          @include mq(map-get($breakpoints, s)) {
+            padding: 0 5rem;
+          }
+          @include mq(map-get($breakpoints, m)) {
+            padding: 0;
+            width: calc(100% - 1rem);
+          }
+          & ul {
+            display: flex;
+            justify-content: space-around;
+            @include mq(map-get($breakpoints, m)) {
+              padding: 0;
+              justify-content: flex-start;
+              gap: 1rem;
+            }
+            & li {
+              display: flex !important;
+              width: unset;
+              gap: unset;
+              flex-wrap: wrap;
+              justify-content: center;
+              & i {
+                font-size: var(--fs-600);
+                @include mq(map-get($breakpoints, m)) {
+                  font-size: calc(var(--fs-600) * 0.8);
+                }
+              }
+              & div {
+                width: fit-content;
+                height: fit-content;
+                & h4 {
+                  font-family: "Cormorant";
+                  font-weight: bold;
+                  font-size: var(--fs-300);
+                  @include mq(map-get($breakpoints, m)) {
+                    font-size: calc(var(--fs-300) * 0.8);
+                  }
+                }
+                & p {
+                  font-family: "Futura PT";
+                  font-weight: 300;
+                  font-size: calc(var(--fs-400) * 0.7);
+                  @include mq(map-get($breakpoints, m)) {
+                    font-size: calc(var(--fs-400) * 0.5);
+                  }
+                }
+              }
+            }
+          }
+        }
+        & .starting_price {
+          margin-top: 2rem;
+          place-content: center;
+          padding: 0.5rem;
+          height: fit-content;
+          width: fit-content;
+          background-color: transparent;
+          border: var(--b-100);
+          border-color: var(--clr-neutral-1200);
+          font-size: var(--fs-300);
+          color: var(--clr-neutral-1200);
+          display: none;
+  
+          @include mq(map-get($breakpoints, m)) {
+            margin-top: 0;
+            margin-bottom: 1rem;
+            grid-area: starting;
+            display: unset;
+            align-self: flex-end;
+            justify-self: flex-start;
+          }
+  
+          & h4 {
+            justify-self: flex-start;
+            text-align: left;
+            font-family: "Futura PT";
+            font-weight: 300;
+            font-size: var(--fs-300);
+            @include mq(map-get($breakpoints, m)) {
+              font-size: calc(var(--fs-300) * 0.8);
+            }
+          }
+          & p {
+            height: fit-content;
+            font-family: "Futura PT";
+            font-weight: 300;
+            font-size: calc(var(--fs-700) * 1.7);
+            display: flex;
+            @include mq(map-get($breakpoints, m)) {
+              font-size: calc(var(--fs-700) * 1.5);
+            }
+            & span {
+              padding-top: 0.5rem;
+              align-self: flex-start;
+              font-size: var(--fs-400);
+              @include mq(map-get($breakpoints, m)) {
+                font-size: calc(var(--fs-400) * 0.8);
+              }
+            }
+          }
+        }
+        & .text {
+          padding: 0 1rem;
+          margin-bottom: 1rem;
+  
+          @include mq(map-get($breakpoints, s)) {
+            padding: 0 5rem;
+          }
+          @include mq(map-get($breakpoints, m)) {
+            margin-bottom: 2rem;
+            padding: 0;
+          }
+          & p {
+            font-family: "Futura PT";
+            font-weight: 300;
+          }
+        }
+        & .includes {
+          padding: 0 1rem;
+          margin-top: 3rem;
+          position: relative;
+  
+          @include mq(map-get($breakpoints, s)) {
+            padding: 0 5rem;
+          }
+          @include mq(map-get($breakpoints, m)) {
+            padding: 0;
+          }
+          &:before {
+            background-color: var(--clr-neutral-600);
+            content: "";
+            position: absolute;
+            display: block;
+            top: -1.5rem;
+            width: 3rem;
+            height: 0.1rem;
+            left: 1rem;
+            @include mq(map-get($breakpoints, s)) {
+              left: 5rem;
+            }
+            @include mq(map-get($breakpoints, m)) {
+              left: 0rem;
+            }
+          }
+          margin-bottom: 0.5rem;
+          & > ul {
+            display: grid;
+            list-style: outside;
+            gap: 0.5rem 1rem;
+            grid-template-columns: repeat(
+              auto-fill,
+              minmax(calc((var(--fs-700) * 8) - 1rem), 1fr)
+            );
+            @include mq(map-get($breakpoints, m)) {
+              grid-template-columns: repeat(
+                auto-fill,
+                minmax(calc((var(--fs-700) * 3) - 1rem), 1fr)
+              );
+            }
+            @include mq(map-get($breakpoints, l)) {
+              grid-template-columns: repeat(
+                auto-fill,
+                minmax(calc((var(--fs-700) * 3.5) - 1rem), 1fr)
+              );
+            }
+            @include mq(map-get($breakpoints, xl)) {
+              grid-template-columns: repeat(
+                auto-fill,
+                minmax(calc((var(--fs-700) * 4) - 1rem), 1fr)
+              );
+            }
+            @include mq(map-get($breakpoints, xxl)) {
+              grid-template-columns: repeat(
+                auto-fill,
+                minmax(calc((var(--fs-700) * 4.5) - 1rem), 1fr)
+              );
+            }
+            & > li {
+              padding: unset;
+              font-family: "Futura PT";
+              font-weight: 300;
+              margin-left: 1.2rem;
+              display: list-item;
+              width: unset;
+            }
+          }
+        }
+        & .btns {
+          padding: 0 1rem;
+          grid-area: button;
+          gap: 1rem;
+          width: calc(100%);
+  
+          @include mq(map-get($breakpoints, s)) {
+            width: 100%;
+            padding: 0 5rem;
+            position: static;
+          }
+          @include mq(map-get($breakpoints, m)) {
+            padding: 0;
+            display: grid;
+          }
+  
+          & button,
+          & a {
+            text-decoration: none;
+            text-transform: uppercase;
+            width: 100%;
+            padding: 0.5rem 0;
+            display: grid;
+            text-align: center;
+            text-decoration: none;
+            font-family: Cormorant;
+            font-weight: bold;
+            border: var(--b-100);
+            color: var(--clr-neutral-1200);
+            background-color: var(--clr-100);
+            border-color: var(--clr-neutral-1200);
+  
+            @include mq(map-get($breakpoints, m)) {
+              width: unset;
+              align-self: flex-end;
+              justify-self: flex-end;
+              padding: 0.5rem 1.5rem;
+              font-size: var(--fs-200);
+              margin-bottom: 1rem;
+              margin-right: 1rem;
+            }
+          }
+        }
+        & .container {
+          grid-area: container;
+          height: 12rem;
+          overflow-y: scroll;
+          background: linear-gradient(#ffffff 33%, rgba(182, 139, 214, 0)),
+            linear-gradient(rgba(182, 139, 214, 0), #ffffff 66%) 0 100%,
+            radial-gradient(
+              farthest-side at 50% 0,
+              rgba(34, 34, 34, 0.5),
+              rgba(0, 0, 0, 0)
+            ),
+            radial-gradient(
+                farthest-side at 50% 100%,
+                rgba(34, 34, 34, 0.5),
+                rgba(0, 0, 0, 0)
+              )
+              0 100%;
+          background-color: #ffffff;
+          background-repeat: no-repeat;
+          background-attachment: local, local, scroll, scroll;
+          background-size: 100% 45px, 100% 45px, 100% 15px, 100% 15px;
+  
+          @include mq(map-get($breakpoints, m)) {
+            width: calc(30vw - 3rem);
+            height: 18rem;
+          }
+          @include mq(map-get($breakpoints, l)) {
+            height: 20rem;
+          }
+        }
+      }
+    }
+  }
+  

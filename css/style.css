@@ -1,0 +1,1097 @@
+@font-face {
+    font-family: 'hotel-restaurant';
+    src: url('hotel-restaurant.eot?e6isol');
+    src: url('hotel-restaurant.eot?e6isol#iefix') format('embedded-opentype'), url('hotel-restaurant.ttf?e6isol') format('truetype'), url('hotel-restaurant.woff?e6isol') format('woff'), url('hotel-restaurant.svg?e6isol#hotel-restaurant') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'hotel-restaurant' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-kreveti:before {
+    content: "\e90d";
+}
+.icon-email:before {
+    content: "\e90e";
+}
+.icon-gosti:before {
+    content: "\e90f";
+}
+.icon-broj-telefona:before {
+    content: "\e910";
+}
+.icon-photos:before {
+    content: "\e911";
+}
+.icon-size:before {
+    content: "\e912";
+}
+
+.icon-vrtic:before {
+    content: "\e900";
+}
+
+.icon-friz:before {
+    content: "\e901";
+}
+
+.icon-garaza:before {
+    content: "\e902";
+}
+
+.icon-hi-fi:before {
+    content: "\e903";
+}
+
+.icon-masaza:before {
+    content: "\e904";
+}
+
+.icon-novine:before {
+    content: "\e905";
+}
+
+.icon-mikrotalasna:before {
+    content: "\e906";
+}
+
+.icon-deciji-krevetic:before {
+    content: "\e907";
+}
+
+.icon-piano:before {
+    content: "\e908";
+}
+
+.icon-pog-porodice:before {
+    content: "\e909";
+}
+
+.icon-turk-bath:before {
+    content: "\e90a";
+}
+
+.icon-pes-staze:before {
+    content: "\e90b";
+}
+
+.icon-wellness:before {
+    content: "\e90c";
+}
+
+.icon-exclam:before {
+    content: "\e800";
+}
+
+.icon-A:before {
+    content: "\e801";
+}
+
+.icon-a:before {
+    content: "\e802";
+}
+
+.icon-papuce:before {
+    content: "\e803";
+}
+
+.icon-quotedbl:before {
+    content: "\e804";
+}
+
+.icon-kuglana:before {
+    content: "\e805";
+}
+
+.icon-D:before {
+    content: "\e806";
+}
+
+.icon-numbersign:before {
+    content: "\e807";
+}
+
+.icon-sef:before {
+    content: "\e808";
+}
+
+.icon-kuhinja:before {
+    content: "\e809";
+}
+
+.icon-b:before {
+    content: "\e80a";
+}
+
+.icon-modem:before {
+    content: "\e80b";
+}
+
+.icon-uniE003:before {
+    content: "\e80c";
+}
+
+.icon-ves-masina:before {
+    content: "\e80d";
+}
+
+.icon-uniE023:before {
+    content: "\e80e";
+}
+
+.icon-uniE042:before {
+    content: "\e80f";
+}
+
+.icon-uniE043:before {
+    content: "\e810";
+}
+
+.icon-uniE062:before {
+    content: "\e811";
+}
+
+.icon-uniE082:before {
+    content: "\e812";
+}
+
+.icon-ala-restoran:before {
+    content: "\e813";
+}
+
+.icon-uniE063:before {
+    content: "\e814";
+}
+
+.icon-c:before {
+    content: "\e815";
+}
+
+.icon-tv:before {
+    content: "\e816";
+}
+
+.icon-e:before {
+    content: "\e817";
+}
+
+.icon-f:before {
+    content: "\e818";
+}
+
+.icon-g:before {
+    content: "\e819";
+}
+
+.icon-hidmas-kada:before {
+    content: "\e81a";
+}
+
+.icon-i:before {
+    content: "\e81b";
+}
+
+.icon-tel:before {
+    content: "\e81c";
+}
+
+.icon-k:before {
+    content: "\e81d";
+}
+
+.icon-l:before {
+    content: "\e81e";
+}
+
+.icon-m:before {
+    content: "\e81f";
+}
+
+.icon-vhs:before {
+    content: "\e820";
+}
+
+.icon-bazen:before {
+    content: "\e821";
+}
+
+.icon-pegla:before {
+    content: "\e822";
+}
+
+.icon-q:before {
+    content: "\e823";
+}
+
+.icon-r:before {
+    content: "\e824";
+}
+
+.icon-pomocni-lezaj:before {
+    content: "\e825";
+}
+
+.icon-t:before {
+    content: "\e826";
+}
+
+.icon-restoran:before {
+    content: "\e827";
+}
+
+.icon-v:before {
+    content: "\e828";
+}
+
+.icon-w:before {
+    content: "\e829";
+}
+
+.icon-x:before {
+    content: "\e82a";
+}
+
+.icon-y:before {
+    content: "\e82b";
+}
+
+.icon-uniE004:before {
+    content: "\e82c";
+}
+
+.icon-uniE005:before {
+    content: "\e82d";
+}
+
+.icon-pog-invalidi:before {
+    content: "\e82e";
+}
+
+.icon-uniE007:before {
+    content: "\e82f";
+}
+
+.icon-uniE008:before {
+    content: "\e830";
+}
+
+.icon-uniE009:before {
+    content: "\e831";
+}
+
+.icon-uniE00A:before {
+    content: "\e832";
+}
+
+.icon-pogled-vrt:before {
+    content: "\e833";
+}
+
+.icon-fax:before {
+    content: "\e834";
+}
+
+.icon-terasa:before {
+    content: "\e835";
+}
+
+.icon-uniE00E:before {
+    content: "\e836";
+}
+
+.icon-zamrzivac:before {
+    content: "\e837";
+}
+
+.icon-uniE010:before {
+    content: "\e838";
+}
+
+.icon-bade-mantil:before {
+    content: "\e839";
+}
+
+.icon-uniE012:before {
+    content: "\e83a";
+}
+
+.icon-uniE013:before {
+    content: "\e83b";
+}
+
+.icon-uniE014:before {
+    content: "\e83c";
+}
+
+.icon-uniE015:before {
+    content: "\e83d";
+}
+
+.icon-uniE016:before {
+    content: "\e83e";
+}
+
+.icon-uniE017:before {
+    content: "\e83f";
+}
+
+.icon-uniE018:before {
+    content: "\e840";
+}
+
+.icon-uniE019:before {
+    content: "\e841";
+}
+
+.icon-animacija:before {
+    content: "\e842";
+}
+
+.icon-uniE024:before {
+    content: "\e843";
+}
+
+.icon-uniE025:before {
+    content: "\e844";
+}
+
+.icon-uniE026:before {
+    content: "\e845";
+}
+
+.icon-uniE027:before {
+    content: "\e846";
+}
+
+.icon-uniE028:before {
+    content: "\e847";
+}
+
+.icon-sauna:before {
+    content: "\e848";
+}
+
+.icon-uniE02A:before {
+    content: "\e849";
+}
+
+.icon-uniE02B:before {
+    content: "\e84a";
+}
+
+.icon-uniE02C:before {
+    content: "\e84b";
+}
+
+.icon-uniE02D:before {
+    content: "\e84c";
+}
+
+.icon-pogled-grad:before {
+    content: "\e84d";
+}
+
+.icon-uniE02F:before {
+    content: "\e84e";
+}
+
+.icon-golf:before {
+    content: "\e84f";
+}
+
+.icon-uniE031:before {
+    content: "\e850";
+}
+
+.icon-uniE032:before {
+    content: "\e851";
+}
+
+.icon-uniE033:before {
+    content: "\e852";
+}
+
+.icon-uniE034:before {
+    content: "\e853";
+}
+
+.icon-uniE035:before {
+    content: "\e854";
+}
+
+.icon-uniE036:before {
+    content: "\e855";
+}
+
+.icon-uniE037:before {
+    content: "\e856";
+}
+
+.icon-uniE038:before {
+    content: "\e857";
+}
+
+.icon-uniE039:before {
+    content: "\e858";
+}
+
+.icon-uniE03A:before {
+    content: "\e859";
+}
+
+.icon-uniE044:before {
+    content: "\e85a";
+}
+
+.icon-uniE045:before {
+    content: "\e85b";
+}
+
+.icon-uniE046:before {
+    content: "\e85c";
+}
+
+.icon-club:before {
+    content: "\e85d";
+}
+
+.icon-uniE048:before {
+    content: "\e85e";
+}
+
+.icon-uniE049:before {
+    content: "\e85f";
+}
+
+.icon-priv-wc:before {
+    content: "\e860";
+}
+
+.icon-uniE04B:before {
+    content: "\e861";
+}
+
+.icon-snack:before {
+    content: "\e862";
+}
+
+.icon-uniE04D:before {
+    content: "\e863";
+}
+
+.icon-sudo-masina:before {
+    content: "\e864";
+}
+
+.icon-uniE04F:before {
+    content: "\e865";
+}
+
+.icon-plaza:before {
+    content: "\e866";
+}
+
+.icon-uniE051:before {
+    content: "\e867";
+}
+
+.icon-uniE052:before {
+    content: "\e868";
+}
+
+.icon-uniE053:before {
+    content: "\e869";
+}
+
+.icon-menjac:before {
+    content: "\e86a";
+}
+
+.icon-uniE055:before {
+    content: "\e86b";
+}
+
+.icon-uniE056:before {
+    content: "\e86c";
+}
+
+.icon-uniE057:before {
+    content: "\e86d";
+}
+
+.icon-uniE058:before {
+    content: "\e86e";
+}
+
+.icon-uniE059:before {
+    content: "\e86f";
+}
+
+.icon-uniE05A:before {
+    content: "\e870";
+}
+
+.icon-uniE064:before {
+    content: "\e871";
+}
+
+.icon-uniE065:before {
+    content: "\e872";
+}
+
+.icon-uniE066:before {
+    content: "\e873";
+}
+
+.icon-uniE067:before {
+    content: "\e874";
+}
+
+.icon-uniE068:before {
+    content: "\e875";
+}
+
+.icon-uniE069:before {
+    content: "\e876";
+}
+
+.icon-uniE06A:before {
+    content: "\e877";
+}
+
+.icon-g-parking:before {
+    content: "\e878";
+}
+
+.icon-uniE06C:before {
+    content: "\e879";
+}
+
+.icon-uniE06D:before {
+    content: "\e87a";
+}
+
+.icon-uniE06E:before {
+    content: "\e87b";
+}
+
+.icon-uniE06F:before {
+    content: "\e87c";
+}
+
+.icon-uniE070:before {
+    content: "\e87d";
+}
+
+.icon-uniE071:before {
+    content: "\e87e";
+}
+
+.icon-uniE072:before {
+    content: "\e87f";
+}
+
+.icon-uniE073:before {
+    content: "\e880";
+}
+
+.icon-uniE074:before {
+    content: "\e881";
+}
+
+.icon-uniE075:before {
+    content: "\e882";
+}
+
+.icon-uniE076:before {
+    content: "\e883";
+}
+
+.icon-uniE077:before {
+    content: "\e884";
+}
+
+.icon-uniE078:before {
+    content: "\e885";
+}
+
+.icon-uniE079:before {
+    content: "\e886";
+}
+
+.icon-uniE07A:before {
+    content: "\e887";
+}
+
+.icon-air-condition:before {
+    content: "\e888";
+}
+
+.icon-uniE085:before {
+    content: "\e889";
+}
+
+.icon-pogled-more:before {
+    content: "\e88a";
+}
+
+.icon-uniE087:before {
+    content: "\e88b";
+}
+
+.icon-uniE088:before {
+    content: "\e88c";
+}
+
+.icon-uniE089:before {
+    content: "\e88d";
+}
+
+.icon-uniE08A:before {
+    content: "\e88e";
+}
+
+.icon-uniE08B:before {
+    content: "\e88f";
+}
+
+.icon-uniE08C:before {
+    content: "\e890";
+}
+
+.icon-uniE08D:before {
+    content: "\e891";
+}
+
+.icon-uniE08E:before {
+    content: "\e892";
+}
+
+.icon-uniE08F:before {
+    content: "\e893";
+}
+
+.icon-taverna:before {
+    content: "\e894";
+}
+
+.icon-uniE091:before {
+    content: "\e895";
+}
+
+.icon-uniE092:before {
+    content: "\e896";
+}
+
+.icon-uniE093:before {
+    content: "\e897";
+}
+
+.icon-uniE094:before {
+    content: "\e898";
+}
+
+.icon-uniE095:before {
+    content: "\e899";
+}
+
+.icon-uniE096:before {
+    content: "\e89a";
+}
+
+.icon-uniE097:before {
+    content: "\e89b";
+}
+
+.icon-uniE098:before {
+    content: "\e89c";
+}
+
+.icon-uniE099:before {
+    content: "\e89d";
+}
+
+.icon-uniE09A:before {
+    content: "\e89e";
+}
+
+.icon-percent:before {
+    content: "\e89f";
+}
+
+.icon-ampersand:before {
+    content: "\e8a0";
+}
+
+.icon-quotesingle:before {
+    content: "\e8a1";
+}
+
+.icon-parenleft:before {
+    content: "\e8a2";
+}
+
+.icon-bar-plaza:before {
+    content: "\e8a3";
+}
+
+.icon-asterisk:before {
+    content: "\e8a4";
+}
+
+.icon-mini-bar:before {
+    content: "\e8a5";
+}
+
+.icon-kongres:before {
+    content: "\e8a6";
+}
+
+.icon-hyphen:before {
+    content: "\e8a7";
+}
+
+.icon-gamble:before {
+    content: "\e8a8";
+}
+
+.icon-slash:before {
+    content: "\e8a9";
+}
+
+.icon-zero:before {
+    content: "\e8aa";
+}
+
+.icon-one:before {
+    content: "\e8ab";
+}
+
+.icon-net:before {
+    content: "\e8ac";
+}
+
+.icon-three:before {
+    content: "\e8ad";
+}
+
+.icon-four:before {
+    content: "\e8ae";
+}
+
+.icon-five:before {
+    content: "\e8af";
+}
+
+.icon-six:before {
+    content: "\e8b0";
+}
+
+.icon-lift:before {
+    content: "\e8b1";
+}
+
+.icon-eight:before {
+    content: "\e8b2";
+}
+
+.icon-nine:before {
+    content: "\e8b3";
+}
+
+.icon-colon:before {
+    content: "\e8b4";
+}
+
+.icon-semicolon:before {
+    content: "\e8b5";
+}
+
+.icon-restoran-plaza:before {
+    content: "\e8b6";
+}
+
+.icon-equal:before {
+    content: "\e8b7";
+}
+
+.icon-greater:before {
+    content: "\e8b8";
+}
+
+.icon-rent-a-car:before {
+    content: "\e8b9";
+}
+
+.icon-mini-kuhinja:before {
+    content: "\e8ba";
+}
+
+.icon-E:before {
+    content: "\e8bb";
+}
+
+.icon-F:before {
+    content: "\e8bc";
+}
+
+.icon-fen:before {
+    content: "\e8bd";
+}
+
+.icon-H:before {
+    content: "\e8be";
+}
+
+.icon-I:before {
+    content: "\e8bf";
+}
+
+.icon-J:before {
+    content: "\e8c0";
+}
+
+.icon-K:before {
+    content: "\e8c1";
+}
+
+.icon-L:before {
+    content: "\e8c2";
+}
+
+.icon-M:before {
+    content: "\e8c3";
+}
+
+.icon-vip:before {
+    content: "\e8c4";
+}
+
+.icon-O:before {
+    content: "\e8c5";
+}
+
+.icon-P:before {
+    content: "\e8c6";
+}
+
+.icon-Q:before {
+    content: "\e8c7";
+}
+
+.icon-R:before {
+    content: "\e8c8";
+}
+
+.icon-S:before {
+    content: "\e8c9";
+}
+
+.icon-wifi:before {
+    content: "\e8ca";
+}
+
+.icon-priv-plaza:before {
+    content: "\e8cb";
+}
+
+.icon-posluga-u-sobi:before {
+    content: "\e8cc";
+}
+
+.icon-W:before {
+    content: "\e8cd";
+}
+
+.icon-u-bazen:before {
+    content: "\e8ce";
+}
+
+.icon-fittness:before {
+    content: "\e8cf";
+}
+
+.icon-Z:before {
+    content: "\e8d0";
+}
+
+.icon-bracketleft:before {
+    content: "\e8d1";
+}
+
+.icon-vodeni-sport:before {
+    content: "\e8d2";
+}
+
+.icon-izleti:before {
+    content: "\e8d3";
+}
+
+.icon-disko:before {
+    content: "\e8d4";
+}
+
+.icon-transfer:before {
+    content: "\e8d5";
+}
+
+.icon-grave:before {
+    content: "\e8d6";
+}
+
+.icon-z:before {
+    content: "\e8d7";
+}
+
+.icon-braceleft:before {
+    content: "\e8d8";
+}
+
+.icon-bar:before {
+    content: "\e8d9";
+}
+
+.icon-braceright:before {
+    content: "\e8da";
+}
+
+.icon-pogled-park:before {
+    content: "\e8db";
+}
+
+.icon-uniE000:before {
+    content: "\e8dc";
+}
+
+.icon-parking:before {
+    content: "\e8dd";
+}
+
+.icon-uniE01B:before {
+    content: "\e8de";
+}
+
+.icon-uniE01C:before {
+    content: "\e8df";
+}
+
+.icon-uniE01D:before {
+    content: "\e8e0";
+}
+
+.icon-sat-tv:before {
+    content: "\e8e1";
+}
+
+.icon-uniE01F:before {
+    content: "\e8e2";
+}
+
+.icon-uniE020:before {
+    content: "\e8e3";
+}
+
+.icon-uniE021:before {
+    content: "\e8e4";
+}
+
+.icon-uniE03B:before {
+    content: "\e8e5";
+}
+
+.icon-uniE03C:before {
+    content: "\e8e6";
+}
+
+.icon-uniE03D:before {
+    content: "\e8e7";
+}
+
+.icon-pets:before {
+    content: "\e8e8";
+}
+
+.icon-uniE03F:before {
+    content: "\e8e9";
+}
+
+.icon-uniE040:before {
+    content: "\e8ea";
+}
+
+.icon-vodeni-krevet:before {
+    content: "\e8eb";
+}
+
+.icon-uniE05B:before {
+    content: "\e8ec";
+}
+
+.icon-uniE05C:before {
+    content: "\e8ed";
+}
+
+.icon-uniE05D:before {
+    content: "\e8ee";
+}
+
+.icon-uniE05E:before {
+    content: "\e8ef";
+}
+
+.icon-uniE05F:before {
+    content: "\e8f0";
+}
+
+.icon-uniE060:before {
+    content: "\e8f1";
+}
+
+.icon-uniE061:before {
+    content: "\e8f2";
+}
+
+.icon-uniE07B:before {
+    content: "\e8f3";
+}
+
+.icon-uniE07C:before {
+    content: "\e8f4";
+}
+
+.icon-uniE07D:before {
+    content: "\e8f5";
+}
+
+.icon-tenis:before {
+    content: "\e8f6";
+}
+
+.icon-uniE07F:before {
+    content: "\e8f7";
+}
+
+.icon-uniE080:before {
+    content: "\e8f8";
+}
+
+.icon-uniE081:before {
+    content: "\e8f9";
+}
+
+/***********************/
+
